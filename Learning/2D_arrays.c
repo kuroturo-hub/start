@@ -1,7 +1,7 @@
 //Printing a numpad using 2D array (idk why)
 #include <stdio.h>
 int main(){
-    char numpad [][3] = {{'1','2','3'},
+    char numpad [][3] = {{'1','2','3'},   //3 means max. number of elements each inside array can hold is 3
                         {'4','5','6'},
                         {'7','8','9'},
                         {'*','0','#'}};
