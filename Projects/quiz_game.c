@@ -29,12 +29,12 @@ void main(){
         else printf("WRONG!!\n\n");
     }
     
-    printf("Your score is %d out of 5 points",counter);
+    printf("Your score is %d out of 5 points\n",counter);
 
     switch(counter){
-        case 5:case 4:case 3: printf("Congratulations, You passed the sus quiz");
+        case 5:case 4:case 3: printf("Congratulations, You passed the sus quiz\n");
                               break;
-        case 2: case 1: case 0: printf("Better luck next time");
+        case 2: case 1: case 0: printf("Better luck next time\n");
                                 break;
     }
 }
