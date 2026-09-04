@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdbool.h>
 void diag(int c , int player );
 void won(int player);
 int x[3][3] ={{10,2,3},{4,5,6},{7,8,9}};
-bool win =false;
-
+bool win = false;
 int main(){
     int i , j ;
     printf("THIS is a local TIC TAC TOE GAME\nPLAYER 1: 'X'\nPLAYER 2: 'O'\nEnter the row:coloumn as : 12\nHere 12 means 1st row and 2nd coloumn\nGOOD LUCK!! <3\n");
