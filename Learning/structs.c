@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct{
+typedef struct
+            {
                char name[50];
                int year;
                int price;
-} Car;
+            } Car;
 
 void printcar(Car cars);
 
